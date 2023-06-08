@@ -11,7 +11,6 @@ var started=false;
 
 $(document).keypress(function(){
     if(!started){
-        $("#level-title").text("Level "+level);
         started = true;
         nextSequence();
         
